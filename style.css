@@ -1,0 +1,88 @@
+                body {
+                background-color: #f3fff4;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                }
+                .block {
+                background-color: #e2ffea;
+                border: 1px solid #dcdcdc;
+                border-radius: 30px;
+                padding: 20px;
+                margin-bottom: 20px;
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease;
+                margin: 30px;
+                }
+
+                .block:hover {
+                transform: scale(1.05);
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+                }
+
+                .block2 {
+                background-color: #e2ffea;
+                border: 1px solid #dcdcdc;
+                border-radius: 30px;
+                padding: 20px;
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+                margin: 50px;
+                transition: transform 0.3s ease;
+                }
+                .block2:hover {
+                transform: scale(1.05);
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+                }
+                p {
+                    color: #000000;
+                    text-decoration: none;
+                    font-size: 13px;
+                }
+                p:hover {
+                    text-decoration: underline;
+                }
+                    h1 {
+                        color: #000000;
+                        text-decoration: none;
+                    }
+                    h2 {
+                        color: #000000;
+                        text-decoration: none;
+                        text-size: 100px
+                    }
+                    h1:hover, h2:hover {
+                        text-decoration: underline;
+                    }
+                    img {
+                        transition: transform 0.3s ease;
+                    }
+                    img:hover {                       
+                        transform: scale(1.05);
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                    }
+                    .social {
+                        margin-top: 30px;
+                        text-align: center;
+                    }
+
+                    .insta-btn {
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #962fbf);
+                        transition: 0.3s;
+                    }
+
+                    .insta-btn img {
+                        width: 28px;
+                        height: 28px;
+                        filter: brightness(0) invert(1);
+                    }
+
+                    .insta-btn:hover {
+                        transform: scale(1.15);
+                        box-shadow: 0 0 20px rgba(214, 41, 118, 0.6); 
+                    }
